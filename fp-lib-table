@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Test_Project_Lib")(type "KiCad")(uri "${KIPRJMOD}/Test_Project-backups/Test_Project_Lib.pretty")(options "")(descr ""))
+)
