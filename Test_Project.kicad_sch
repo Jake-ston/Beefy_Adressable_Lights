@@ -8181,8 +8181,8 @@
 				)
 			)
 		)
-		(property "Value" "BIG_?uF"
-			(at 227.076 30.988 0)
+		(property "Value" "22uF"
+			(at 225.552 30.988 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8449,8 +8449,8 @@
 				)
 			)
 		)
-		(property "Value" "BIG_?uF"
-			(at 209.296 31.242 0)
+		(property "Value" "22uF"
+			(at 210.566 31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
