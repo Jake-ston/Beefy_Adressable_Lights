@@ -8092,11 +8092,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DSG"
-			(at 185.166 76.2 0)
+		(property "Value" "NTTFS5C454NLTAG"
+			(at 190.754 74.93 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -10420,11 +10420,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DSG"
-			(at 185.674 60.706 0)
+		(property "Value" "NTTFS5C454NLTAG"
+			(at 191.262 59.436 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -11046,11 +11046,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DSG"
-			(at 185.674 90.678 0)
+		(property "Value" "NTTFS5C454NLTAG"
+			(at 188.976 90.678 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
@@ -11913,11 +11913,11 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS_DSG"
-			(at 187.452 45.974 0)
+		(property "Value" "NTTFS5C454NLTAG"
+			(at 193.04 44.704 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.635 0.635)
 				)
 				(justify left)
 			)
