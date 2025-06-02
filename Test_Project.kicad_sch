@@ -4607,6 +4607,12 @@
 		(uuid "84c61bf0-d318-4bae-98c3-b9525ababaa0")
 	)
 	(junction
+		(at 240.03 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "859ce11a-923b-42ca-bc08-0781bf78a37a")
+	)
+	(junction
 		(at 49.53 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4643,7 +4649,7 @@
 		(uuid "a0377bbc-c589-4a80-8781-56e2c0b102ab")
 	)
 	(junction
-		(at 218.44 149.86)
+		(at 217.17 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a42362d7-4751-4e0d-b1a0-e46259d22bb6")
@@ -4763,7 +4769,7 @@
 		(uuid "fb8825ca-7b25-4234-9de7-38e3dfbf429d")
 	)
 	(junction
-		(at 218.44 134.62)
+		(at 217.17 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "febf264c-2b95-4bf2-80df-ae997096e504")
@@ -4960,7 +4966,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 149.86) (xy 240.03 149.86)
+			(xy 234.95 152.4) (xy 240.03 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5020,7 +5026,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 142.24) (xy 240.03 149.86)
+			(xy 240.03 142.24) (xy 240.03 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5210,7 +5216,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 134.62) (xy 218.44 134.62)
+			(xy 193.04 137.16) (xy 217.17 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5690,7 +5696,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 142.24) (xy 218.44 149.86)
+			(xy 217.17 144.78) (xy 217.17 152.4)
 		)
 		(stroke
 			(width 0)
@@ -5780,7 +5786,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 137.16) (xy 218.44 134.62)
+			(xy 217.17 139.7) (xy 217.17 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6040,7 +6046,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 134.62) (xy 231.14 142.24)
+			(xy 229.87 137.16) (xy 229.87 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6050,7 +6056,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 149.86) (xy 218.44 149.86)
+			(xy 193.04 152.4) (xy 217.17 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6200,7 +6206,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 134.62) (xy 231.14 134.62)
+			(xy 217.17 137.16) (xy 229.87 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6590,7 +6596,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 149.86) (xy 226.06 149.86)
+			(xy 217.17 152.4) (xy 224.79 152.4)
 		)
 		(stroke
 			(width 0)
@@ -7060,6 +7066,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 152.4) (xy 257.81 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8bc6c61-4d10-4763-8b1e-0921ce44e465")
+	)
+	(wire
+		(pts
 			(xy 178.3773 96.5122) (xy 179.6473 96.5122)
 		)
 		(stroke
@@ -7399,7 +7415,7 @@
 		(uuid "2e5177f9-bc65-4244-bfb7-75350064c9b0")
 	)
 	(label "VDD_3V3"
-		(at 194.31 134.62 0)
+		(at 193.04 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7519,7 +7535,7 @@
 		(uuid "8d9c26cf-2d2b-4d81-8421-32ee2017c7b5")
 	)
 	(label "LED_Data_Out (PWM)"
-		(at 194.31 149.86 0)
+		(at 193.04 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10961,7 +10977,7 @@
 	)
 	(symbol
 		(lib_id "Library:R_Small")
-		(at 218.44 139.7 0)
+		(at 217.17 142.24 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10970,7 +10986,7 @@
 		(dnp no)
 		(uuid "94047bde-47b6-4f2a-84cb-4cd00cd26aff")
 		(property "Reference" "R18"
-			(at 215.9 146.05 90)
+			(at 214.63 148.59 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10978,7 +10994,7 @@
 			)
 		)
 		(property "Value" "25.5 kΩ"
-			(at 215.9 140.208 90)
+			(at 214.63 142.748 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10986,7 +11002,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 218.44 139.7 0)
+			(at 217.17 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10995,7 +11011,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 139.7 0)
+			(at 217.17 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +11020,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 218.44 139.7 0)
+			(at 217.17 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12847,7 +12863,7 @@
 	(symbol
 		(lib_name "Q_NMOS_DSG_3")
 		(lib_id "Library:Q_NMOS_DSG_3")
-		(at 231.14 147.32 270)
+		(at 229.87 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12855,7 +12871,7 @@
 		(dnp no)
 		(uuid "d04d2454-fbdf-4ca4-8ea9-418545bd32cd")
 		(property "Reference" "Q5"
-			(at 229.616 142.748 0)
+			(at 228.346 145.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12864,7 +12880,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_DSG"
-			(at 233.172 133.604 0)
+			(at 231.902 136.144 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12873,7 +12889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 152.4 0)
+			(at 232.41 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12882,7 +12898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 147.32 0)
+			(at 229.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,7 +12907,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 231.14 147.32 0)
+			(at 229.87 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
