@@ -4,22 +4,22 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0.5 -11 0)
+		(at 8.5 5.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "50230115-1fa8-4e3a-be9d-ec27ccf1ee89")
+		(uuid "8670a0b5-5047-4a60-a55d-b9c557594103")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.1)
 			)
 		)
 	)
-	(property "Value" "SRP1265A"
+	(property "Value" "2.2uH"
 		(at 0.5 -9.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6c487d25-7a26-468f-a847-b8a76916a155")
+		(uuid "aa434308-4d60-4edb-9008-8e6321116c5b")
 		(effects
 			(font
 				(size 1 1)
@@ -27,12 +27,12 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/SRP1265A.pdf"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8f3d9e57-e064-4499-93f1-c999521fd182")
+		(uuid "47986729-8b10-4b3e-8109-8224f4a5251a")
 		(effects
 			(font
 				(size 1 1)
@@ -40,12 +40,12 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "SRP1265A-2R2M"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "8ffa968b-d528-4638-94e6-b82be8aa6ba0")
+		(uuid "5e185886-236e-4111-81a7-c15b9400d08a")
 		(effects
 			(font
 				(size 1 1)
@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d4b3c81a-4cbe-4bb1-ac66-ff2268a504e9")
+		(uuid "52ff6766-43eb-46ed-8d84-e1fb4ed2b8b4")
 	)
 	(fp_line
 		(start -7 6.5)
@@ -72,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "96a2fd93-9584-4a0f-8d98-99d3862793f1")
+		(uuid "9d62078c-88c1-4848-b340-5c2da2d2b29b")
 	)
 	(fp_line
 		(start 0 -6.5)
@@ -82,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "836d3869-8e1c-4353-998f-e9679fcad119")
+		(uuid "c0d64a84-a0b9-40d1-a80d-aad51ccee663")
 	)
 	(fp_line
 		(start 0 -6.5)
@@ -92,7 +92,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "8aeef319-0fe8-4fcf-9222-a6de6e48f5f2")
+		(uuid "4c4d7854-58a9-46e0-8829-c7a1e6a8b7b8")
 	)
 	(fp_line
 		(start 0 6.5)
@@ -102,7 +102,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "d778bfac-4acf-4c0e-b0d4-946260ff7965")
+		(uuid "2b93f9bc-ebad-4e8d-81de-d4a1051372d5")
 	)
 	(fp_line
 		(start 0 6.5)
@@ -112,7 +112,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "129e387b-2c68-4216-bbce-bbb455de60de")
+		(uuid "87c632f4-1af8-4251-9f29-4c8d21de4a9a")
 	)
 	(fp_line
 		(start 7 -6.5)
@@ -122,7 +122,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "15cf6565-d5f5-4982-a377-d00fa6a2a704")
+		(uuid "d65b5838-7622-40aa-bb67-a82e426a0d05")
 	)
 	(fp_line
 		(start 7 6.5)
@@ -132,13 +132,13 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "5643d052-0264-458c-a3d7-828d2eed7be3")
+		(uuid "e98f687f-9069-4f42-bd87-5b1598620b71")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0.5 -8 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "f555ec2f-d19a-4334-b50d-a5ec49456e55")
+		(uuid "96614a45-265d-43e9-9c93-86aa1a8e9b01")
 		(effects
 			(font
 				(size 1 1)
@@ -151,14 +151,14 @@
 		(size 5.5 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "6b75f5ad-4e50-4f64-acf3-7fd8150a3311")
+		(uuid "5a2e67f8-70af-4801-ad15-ca7a413b5fd0")
 	)
 	(pad "2" smd rect
 		(at 6.25 0)
 		(size 5.5 6)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "b2e84165-9daa-4872-b0b1-540c6b9bfd65")
+		(uuid "8a4fbb9e-71d2-43bb-b2e8-34d3c68d32d1")
 	)
 	(embedded_fonts no)
 )
