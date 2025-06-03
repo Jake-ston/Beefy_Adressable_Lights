@@ -13491,13 +13491,13 @@
 	)
 	(symbol
 		(lib_id "Library:R_Small")
-		(at 123.19 97.79 90)
+		(at 123.19 97.79 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d579f392-8a6a-422b-ba3c-6be663b4b759")
 		(property "Reference" "R2"
 			(at 123.19 92.71 90)
