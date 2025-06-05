@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.2,
-          "height": 4.4,
-          "width": 4.4
+          "drill": 0.0,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,7 +52,24 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "starved_thermal|344500000|111150000|d41274be-c2c0-4f9a-b938-c63d05255e23|eac1f8e1-8265-457f-9e6f-a9bdb2209935|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|350000000|105500000|d41274be-c2c0-4f9a-b938-c63d05255e23|4e13eba8-f341-404b-978f-36bb41c26d11|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|350100000|119500000|d41274be-c2c0-4f9a-b938-c63d05255e23|e903cc4b-219e-4774-958f-859fd62f1a18|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|381000000|91425000|d41274be-c2c0-4f9a-b938-c63d05255e23|46321365-b3ce-42f0-9979-8db51be9747d|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -71,7 +88,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
-        "footprint_symbol_mismatch": "warning",
+        "footprint_symbol_mismatch": "ignore",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
