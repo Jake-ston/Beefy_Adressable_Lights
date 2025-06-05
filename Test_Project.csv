@@ -1,0 +1,24 @@
+# ,Reference                                  ,Qty,Part Number      ,Value          ,Digikey_PN                ,DNP,Exclude from BOM ,Exclude from Board,Footprint                                                 
+1 ,U3                                         ,1  ,AP2127N-3.3TRG1  ,AP2127N-3.3TRG1,AP2127N-3.3TRG1DICT-ND    ,   ,                 ,                  ,Package_TO_SOT_SMD:SOT-23W_Handsoldering                  
+2 ,U2                                         ,1  ,MIC2132YML       ,MIC2132YML     ,150-MIC2132YML-TRCT-ND    ,   ,                 ,                  ,Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm       
+3 ,U1                                         ,1  ,STM32L081KZTx    ,STM32L081KZT6  ,497-16832-ND              ,   ,                 ,                  ,Package_QFP:LQFP-32_7x7mm_P0.8mm                          
+4 ,"R7,R14,R20"                               ,3  ,CRCW06033K30JNEAC,3.3kΩ          ,541-CRCW06033K30JNEACCT-ND,   ,                 ,                  ,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder  
+5 ,"R6,R8,R10,R11,R12"                        ,5  ,CRCW0603100KFKEA ,100kΩ          ,541-100KHCT-ND            ,   ,                 ,                  ,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder  
+6 ,"R4,R5,R15,R18,R19"                        ,5  ,CRCW060325K5FKEA ,25.5 kΩ        ,541-25.5KHCT-ND           ,   ,                 ,                  ,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder  
+7 ,"R2,R3,R9,R16,R17"                         ,5  ,CRCW060310K0FKEA ,10kΩ           ,541-10.0KHCT-ND           ,   ,                 ,                  ,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder  
+8 ,R13                                        ,1  ,CRCW06032R20FKEA ,2.2Ω           ,541-2.20HHCT-ND           ,   ,                 ,                  ,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder  
+9 ,R1                                         ,1  ,CRCW06031M00FKEAC,1M             ,541-5248-1-ND             ,   ,                 ,                  ,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder  
+10,"Q1,Q2,Q3,Q4"                              ,4  ,NTTFS5C454NLTAG  ,NTTFS5C454NLTAG,NTTFS5C454NLTAGOSCT-ND    ,   ,                 ,                  ,Test_Project_Lib:NTTFS5C454NLTAG                          
+11,Q5                                         ,1  ,BSS138-7-F       ,BSS138-7-F     ,BSS138-FDICT-ND           ,   ,                 ,                  ,Test_Project_Lib:BSS138-7-F                               
+12,"L1,L2"                                    ,2  ,SRP1265A-2R2M    ,2.2uH          ,SRP1265A-2R2MCT-ND        ,   ,                 ,                  ,Test_Project_Lib:SRP1265A                                 
+13,"J4,J5,J6,J7"                              ,4  ,x                ,Conn_01x04     ,x                         ,DNP,Excluded from BOM,                  ,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical
+14,"J1,J2"                                    ,2  ,x                ,Conn_01x02     ,x                         ,DNP,Excluded from BOM,                  ,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+15,J3                                         ,1  ,x                ,Conn_01x03     ,x                         ,DNP,Excluded from BOM,                  ,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+16,F1                                         ,1  ,0678L9300-02     ,0678L9300-02   ,5923-0678L9300-02CT-ND    ,   ,                 ,                  ,Test_Project_Lib:Fuse - 0678L9300-02                      
+17,"C5,C8,C11,C13,C29,C30,C31,C32"            ,8  ,CL10B105KA8NNNC  ,1uF            ,1276-1184-1-ND            ,   ,                 ,                  ,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder 
+18,"C19,C20"                                  ,2  ,CL10A475KP8NNNC  ,4.7uF          ,1276-1044-1-ND            ,   ,                 ,                  ,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder 
+19,"C15,C16,C21,C22,C23,C24,C25,C26,C33"      ,9  ,CL21A226MAYNNNE  ,22uF           ,1276-CL21A226MAYNNNECT-ND ,   ,                 ,                  ,Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder 
+20,"C1,C2,C3,C4,C7,C9,C10,C12,C14,C17,C18,C28",12 , CL10B104KA8NNNC ,100nF          ,1276-1006-1-ND            ,   ,                 ,                  ,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder 
+21,C27                                        ,1  ,EST107M025AE3AA  ,100uF          ,399-6613-ND               ,   ,                 ,                  ,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm                    
+22,C6                                         ,1  , CL10C101JB8NNNC ,100pF          ,1276-1008-1-ND            ,   ,                 ,                  ,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder 
+  
