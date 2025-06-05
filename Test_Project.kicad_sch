@@ -4121,19 +4121,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "*Verify MOSFET footprint before going for it"
-		(exclude_from_sim no)
-		(at 220.98 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "05df14df-7d45-4b08-9417-b4065c20b1c2")
-	)
 	(text "800kHz switching"
 		(exclude_from_sim no)
-		(at 80.518 103.886 0)
+		(at 80.01 103.124 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4143,13 +4133,24 @@
 	)
 	(text "9.6uA"
 		(exclude_from_sim no)
-		(at 89.154 92.964 0)
+		(at 88.9 81.026 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "2ce97e39-4b5d-4cc9-8b97-39884ee521fe")
+	)
+	(text "In this configuration, when R_{ILIM} \nis set to:\n100k -> 7A phase limit\n92k  -> 10A phase limit\n75k  -> 15A phase limit\n45k  -> 24A phase limit"
+		(exclude_from_sim no)
+		(at 71.628 89.154 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30e243f2-2c10-4d72-acde-3278f26e6614")
 	)
 	(text "Triggers on exactly 1.6V"
 		(exclude_from_sim no)
@@ -4199,23 +4200,13 @@
 	)
 	(text "R_{ILIM}=\n"
 		(exclude_from_sim no)
-		(at 75.184 91.186 0)
+		(at 74.93 79.248 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "74335ea6-de6b-4194-87c3-a295b290ac5a")
-	)
-	(text "Read datasheet on using capacitors that are not low ESR..."
-		(exclude_from_sim no)
-		(at 102.87 25.908 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7506bd41-6b6f-4133-9bf7-5b91935c9c44")
 	)
 	(text "Power In"
 		(exclude_from_sim no)
@@ -4229,9 +4220,9 @@
 		)
 		(uuid "7b0b5572-3934-486e-81e8-89aa4f78b5dd")
 	)
-	(text "R_{DSON} assumed to be 20m"
+	(text "R_{DSON} assumed to be 8m"
 		(exclude_from_sim no)
-		(at 84.836 100.076 0)
+		(at 83.82 100.584 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4253,7 +4244,7 @@
 	)
 	(text "_____________________\n"
 		(exclude_from_sim no)
-		(at 89.408 90.932 0)
+		(at 89.154 78.994 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4261,9 +4252,9 @@
 		)
 		(uuid "9a6234b4-8395-4983-bf93-ff04fd8f352e")
 	)
-	(text "I_{LIM}=12A per phase"
+	(text "I_{LIM}=30A per phase"
 		(exclude_from_sim no)
-		(at 81.28 97.282 0)
+		(at 81.026 98.044 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4282,16 +4273,6 @@
 		)
 		(uuid "a30a1c7a-c37a-44b4-83a0-6c0496fecb0b")
 	)
-	(text "*Verify MOSFET footprint before going for it"
-		(exclude_from_sim no)
-		(at 94.488 22.352 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a6e613cb-d3d8-4a64-b6b3-81bee816de28")
-	)
 	(text "ADC_IN9"
 		(exclude_from_sim no)
 		(at 60.96 162.56 0)
@@ -4305,7 +4286,7 @@
 	)
 	(text "1.2-4 * R_{DSON} * I_{LIM}"
 		(exclude_from_sim no)
-		(at 89.154 90.17 0)
+		(at 88.9 78.232 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4315,13 +4296,23 @@
 	)
 	(text "50ms Soft Start"
 		(exclude_from_sim no)
-		(at 80.01 107.442 0)
+		(at 79.248 105.664 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "daa549e4-b9c5-44cb-b68c-5bb10ffda24d")
+	)
+	(text "Current MOSFETs may have too low Vgs threshhold..."
+		(exclude_from_sim no)
+		(at 176.784 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff9ce3c9-2026-484d-8688-9c469822af5b")
 	)
 	(junction
 		(at 66.04 129.54)
@@ -7932,6 +7923,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
+			(at 31.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "62a7fc76-fc5d-4673-82a2-0ff92f62c5a7")
 		)
@@ -8067,6 +8076,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 208.28 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
+			(at 208.28 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6b2050bb-b2d7-4f5a-bbfb-5cd0e46ebb64")
 		)
@@ -8126,6 +8153,24 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 234.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21A226MAYNNNE"
+			(at 234.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-CL21A226MAYNNNECT-ND"
 			(at 234.95 59.69 0)
 			(effects
 				(font
@@ -8195,6 +8240,24 @@
 		)
 		(property "Description" "SRP1265A-2R2M"
 			(at 218.44 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SRP1265A-2R2M"
+			(at 218.44 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "SRP1265A-2R2MCT-ND"
+			(at 218.44 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,7 +8384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nttfs5c454nl-d.pdf"
 			(at 199.39 80.01 0)
 			(effects
 				(font
@@ -8331,6 +8394,24 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 199.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NTTFS5C454NLTAG"
+			(at 199.39 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "NTTFS5C454NLTAGOSCT-ND"
 			(at 199.39 80.01 0)
 			(effects
 				(font
@@ -8546,6 +8627,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL10B105KA8NNNC"
+			(at 53.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1184-1-ND"
+			(at 53.34 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4be2293c-b14c-4a41-b736-2976e2851ffa")
 		)
@@ -8615,6 +8714,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL10B105KA8NNNC"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1184-1-ND"
+			(at 229.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "93ed3ea9-b4dc-40b7-ad16-eaf7324b3f3f")
 		)
@@ -8676,6 +8793,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 262.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW060325K5FKEA"
+			(at 262.89 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-25.5KHCT-ND"
+			(at 262.89 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8819,6 +8954,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CRCW060310K0FKEA"
+			(at 105.41 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-10.0KHCT-ND"
+			(at 105.41 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7cacbd88-959a-4edf-9c21-4405cee354db")
 		)
@@ -8879,6 +9032,24 @@
 		)
 		(property "Description" "EST107M025AE3AA"
 			(at 242.57 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "EST107M025AE3AA"
+			(at 242.57 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "399-6613-ND"
+			(at 242.57 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9091,6 +9262,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 224.79 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
+			(at 224.79 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dd06a21c-54b9-45fd-8d03-5853955f6dc5")
 		)
@@ -9229,6 +9418,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
+			(at 43.18 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ee8915a-4f32-4348-842f-ced6045eccdf")
 		)
@@ -9291,6 +9498,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "x"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "x"
 			(at 160.02 140.97 0)
 			(effects
 				(font
@@ -9372,6 +9597,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 207.01 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
+			(at 207.01 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b1b55040-0db7-4143-acaa-e829015759ec")
 		)
@@ -9433,6 +9676,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "x"
+			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "x"
 			(at 25.4 35.56 0)
 			(effects
 				(font
@@ -9510,6 +9771,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL10B105KA8NNNC"
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1184-1-ND"
+			(at 24.13 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "229d1637-25f5-4910-8c6c-b76245716323")
 		)
@@ -9542,7 +9821,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 116.84 34.798 90)
 			(effects
 				(font
@@ -9570,6 +9849,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 116.84 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW0603100KFKEA"
+			(at 116.84 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-100KHCT-ND"
+			(at 116.84 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,6 +10009,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL21A226MAYNNNE"
+			(at 220.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-CL21A226MAYNNNECT-ND"
+			(at 220.98 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1092a5f5-69d0-49b9-a052-2bbabf8fb46e")
 		)
@@ -9773,6 +10088,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 25.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "x"
+			(at 25.4 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "x"
 			(at 25.4 48.26 0)
 			(effects
 				(font
@@ -9881,7 +10214,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 113.284 60.452 90)
 			(effects
 				(font
@@ -9909,6 +10242,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 113.03 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW0603100KFKEA"
+			(at 113.03 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-100KHCT-ND"
+			(at 113.03 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9976,6 +10327,24 @@
 		)
 		(property "Description" "capacitor, small US symbol"
 			(at 96.52 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B105KA8NNNC"
+			(at 96.52 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1184-1-ND"
+			(at 96.52 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10052,6 +10421,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "AP2127N-3.3TRG1"
+			(at 36.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "AP2127N-3.3TRG1DICT-ND"
+			(at 36.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "59dcb160-9156-4a79-b7a1-63484fd477e4")
 		)
@@ -10114,6 +10501,24 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21A226MAYNNNE"
+			(at 215.9 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-CL21A226MAYNNNECT-ND"
 			(at 215.9 31.75 0)
 			(effects
 				(font
@@ -10257,6 +10662,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL21A226MAYNNNE"
+			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-CL21A226MAYNNNECT-ND"
+			(at 48.26 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ff8ac2c-1fbe-4004-a372-a7e0137562df")
 		)
@@ -10318,6 +10741,24 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 224.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 224.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
 			(at 224.79 59.69 0)
 			(effects
 				(font
@@ -10393,6 +10834,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL10A475KP8NNNC"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1044-1-ND"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f0a8395f-691c-4814-a733-c419b233ba1b")
 		)
@@ -10452,6 +10911,24 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 217.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21A226MAYNNNE"
+			(at 217.17 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-CL21A226MAYNNNECT-ND"
 			(at 217.17 73.66 0)
 			(effects
 				(font
@@ -10522,6 +10999,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 160.02 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "x"
+			(at 160.02 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "x"
 			(at 160.02 161.29 0)
 			(effects
 				(font
@@ -10656,7 +11151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nttfs5c454nl-d.pdf"
 			(at 199.39 62.23 0)
 			(effects
 				(font
@@ -10666,6 +11161,24 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 199.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NTTFS5C454NLTAG"
+			(at 199.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "NTTFS5C454NLTAGOSCT-ND"
 			(at 199.39 62.23 0)
 			(effects
 				(font
@@ -10815,6 +11328,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL10B105KA8NNNC"
+			(at 271.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1184-1-ND"
+			(at 271.78 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c3d1720b-dc53-4aa0-af06-621c40b21f58")
 		)
@@ -10877,6 +11408,24 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 54.61 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
 			(at 54.61 132.08 0)
 			(effects
 				(font
@@ -11022,6 +11571,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "x"
+			(at 262.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "x"
+			(at 262.89 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "667fe4be-a104-47aa-8d4e-3b156b44a27c")
 		)
@@ -11086,6 +11653,24 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 229.87 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10B105KA8NNNC"
+			(at 229.87 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1184-1-ND"
 			(at 229.87 90.17 0)
 			(effects
 				(font
@@ -11162,6 +11747,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CRCW060325K5FKEA"
+			(at 217.17 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-25.5KHCT-ND"
+			(at 217.17 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a5a9c659-7041-40fa-aaee-720086570e5c")
 		)
@@ -11214,7 +11817,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nttfs5c454nl-d.pdf"
 			(at 199.39 92.71 0)
 			(effects
 				(font
@@ -11224,6 +11827,24 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NTTFS5C454NLTAG"
+			(at 199.39 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "NTTFS5C454NLTAGOSCT-ND"
 			(at 199.39 92.71 0)
 			(effects
 				(font
@@ -11267,7 +11888,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 128.778 33.528 90)
 			(effects
 				(font
@@ -11295,6 +11916,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 130.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW0603100KFKEA"
+			(at 130.81 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-100KHCT-ND"
+			(at 130.81 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11436,6 +12075,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL21A226MAYNNNE"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-CL21A226MAYNNNECT-ND"
+			(at 212.09 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d6c81732-163b-4bba-ba8d-0ac5762fb7e5")
 		)
@@ -11536,7 +12193,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 122.174 46.482 90)
 			(effects
 				(font
@@ -11564,6 +12221,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 121.92 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW0603100KFKEA"
+			(at 121.92 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-100KHCT-ND"
+			(at 121.92 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11706,6 +12381,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL21A226MAYNNNE"
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-CL21A226MAYNNNECT-ND"
+			(at 234.95 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "794ea6f8-cc9c-45ba-8a91-8a7b079ec648")
 		)
@@ -11740,7 +12433,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STM32L081KZTx"
+		(property "Value" "STM32L081KZT6"
 			(at 84.6933 190.5 0)
 			(effects
 				(font
@@ -11769,6 +12462,24 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32 MHz, 1.65-3.6V, 25 GPIO, LQFP32"
+			(at 82.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "STM32L081KZTx"
+			(at 82.55 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "497-16832-ND"
 			(at 82.55 162.56 0)
 			(effects
 				(font
@@ -11938,6 +12649,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "MIC2132YML"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "150-MIC2132YML-TRCT-ND"
+			(at 153.67 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "796636db-1213-4dc1-9aa4-6d7638ff0b69")
 		)
@@ -12099,6 +12828,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CRCW060325K5FKEA"
+			(at 240.03 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-25.5KHCT-ND"
+			(at 240.03 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0d429afa-4ddf-4a32-848b-27e5dcff42f4")
 		)
@@ -12151,7 +12898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/nttfs5c454nl-d.pdf"
 			(at 199.39 49.53 0)
 			(effects
 				(font
@@ -12161,6 +12908,24 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "NTTFS5C454NLTAG"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "NTTFS5C454NLTAGOSCT-ND"
 			(at 199.39 49.53 0)
 			(effects
 				(font
@@ -12376,6 +13141,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CRCW060325K5FKEA"
+			(at 119.38 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-25.5KHCT-ND"
+			(at 119.38 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5658aa94-3a1b-4b7c-b417-37f58f3d54c0")
 		)
@@ -12408,7 +13191,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "3.3kΩ"
 			(at 121.92 140.462 90)
 			(effects
 				(font
@@ -12436,6 +13219,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 121.92 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW06033K30JNEAC"
+			(at 121.92 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-CRCW06033K30JNEACCT-ND"
+			(at 121.92 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12717,6 +13518,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "x"
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "x"
+			(at 160.02 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07468ba0-5ec0-4c57-9dd8-2e1e0f15516c")
 		)
@@ -12783,6 +13602,24 @@
 		)
 		(property "Description" "capacitor, small US symbol"
 			(at 135.89 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 135.89 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
+			(at 135.89 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12857,6 +13694,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" " CL10C101JB8NNNC"
+			(at 119.38 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1008-1-ND"
+			(at 119.38 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "578c5c27-b5a4-47ff-94ca-1c3afca429c4")
 		)
@@ -12916,6 +13771,24 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL21A226MAYNNNE"
+			(at 240.03 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-CL21A226MAYNNNECT-ND"
 			(at 240.03 59.69 0)
 			(effects
 				(font
@@ -12985,6 +13858,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 119.38 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW060325K5FKEA"
+			(at 119.38 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-25.5KHCT-ND"
+			(at 119.38 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13130,6 +14021,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL10B105KA8NNNC"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1184-1-ND"
+			(at 62.23 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9d8545cd-12eb-4ba8-86a6-5f31a6cae838")
 		)
@@ -13190,6 +14099,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 150.6413 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW06032R20FKEA"
+			(at 150.6413 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-2.20HHCT-ND"
+			(at 150.6413 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13336,6 +14263,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "BSS138-7-F"
+			(at 229.87 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "BSS138-FDICT-ND"
+			(at 229.87 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "428d84e1-6657-44c1-9834-0557f2746cb2")
 		)
@@ -13371,7 +14316,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "3.3kΩ"
 			(at 103.124 54.356 90)
 			(effects
 				(font
@@ -13399,6 +14344,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 105.41 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW06033K30JNEAC"
+			(at 105.41 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-CRCW06033K30JNEACCT-ND"
+			(at 105.41 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13439,7 +14402,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 123.19 104.14 90)
 			(effects
 				(font
@@ -13467,6 +14430,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 123.19 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW060310K0FKEA"
+			(at 123.19 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-10.0KHCT-ND"
+			(at 123.19 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13507,7 +14488,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 123.19 95.25 90)
 			(effects
 				(font
@@ -13535,6 +14516,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW060310K0FKEA"
+			(at 123.19 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-10.0KHCT-ND"
+			(at 123.19 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13602,6 +14601,24 @@
 		)
 		(property "Description" "capacitor, small US symbol"
 			(at 119.38 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 119.38 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
+			(at 119.38 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13736,6 +14753,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW06031M00FKEAC"
+			(at 57.15 149.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-5248-1-ND"
+			(at 57.15 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13878,6 +14913,24 @@
 				)
 			)
 		)
+		(property "Part Number" "0678L9300-02"
+			(at 49.53 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "5923-0678L9300-02CT-ND"
+			(at 49.53 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a872ef8-0709-4780-98e6-5999762031eb")
 		)
@@ -13940,6 +14993,24 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "x"
+			(at 160.02 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "x"
 			(at 160.02 121.92 0)
 			(effects
 				(font
@@ -14228,6 +15299,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL10B105KA8NNNC"
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1184-1-ND"
+			(at 66.04 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "30dc7711-07f9-4927-b139-4e1d91f7bb55")
 		)
@@ -14261,7 +15350,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 265.43 83.82 90)
 			(effects
 				(font
@@ -14289,6 +15378,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 262.89 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW060310K0FKEA"
+			(at 262.89 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-10.0KHCT-ND"
+			(at 262.89 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14355,6 +15462,24 @@
 			)
 		)
 		(property "Description" "capacitor, small US symbol"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CL10A475KP8NNNC"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1044-1-ND"
 			(at 157.48 38.1 0)
 			(effects
 				(font
@@ -14432,6 +15557,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 48.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
+			(at 48.26 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7874e760-2651-4fd2-92e7-5f649fd7eeb2")
 		)
@@ -14493,6 +15636,24 @@
 		)
 		(property "Description" "SRP1265A-2R2M"
 			(at 218.44 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "SRP1265A-2R2M"
+			(at 218.44 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "SRP1265A-2R2MCT-ND"
+			(at 218.44 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14567,6 +15728,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" "CL21A226MAYNNNE"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-CL21A226MAYNNNECT-ND"
+			(at 240.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fb3817ec-1f72-4303-bb1c-b578d1530bf9")
 		)
@@ -14599,7 +15778,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "3.3kΩ"
 			(at 103.632 62.23 90)
 			(effects
 				(font
@@ -14627,6 +15806,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 105.41 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW06033K30JNEAC"
+			(at 105.41 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-CRCW06033K30JNEACCT-ND"
+			(at 105.41 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14840,6 +16037,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 31.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
+			(at 31.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5b67b418-9bbf-49c5-abf3-a1fb0cd3a93f")
 		)
@@ -14872,7 +16087,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100kΩ"
 			(at 55.372 39.37 90)
 			(effects
 				(font
@@ -14900,6 +16115,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 53.34 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW0603100KFKEA"
+			(at 53.34 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-100KHCT-ND"
+			(at 53.34 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14974,6 +16207,24 @@
 				(hide yes)
 			)
 		)
+		(property "Part Number" " CL10B104KA8NNNC"
+			(at 116.84 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "1276-1006-1-ND"
+			(at 116.84 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "05018eaf-09bb-4d50-92e8-4d644dd3d9c0")
 		)
@@ -15007,7 +16258,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "10kΩ"
 			(at 48.26 48.26 90)
 			(effects
 				(font
@@ -15035,6 +16286,24 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 53.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Number" "CRCW060310K0FKEA"
+			(at 53.34 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey_PN" "541-10.0KHCT-ND"
+			(at 53.34 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
