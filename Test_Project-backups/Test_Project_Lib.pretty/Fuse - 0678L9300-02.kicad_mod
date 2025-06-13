@@ -7,7 +7,7 @@
 		(at -5.75 -2.75 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "96bcacb2-a5ef-4b48-9a4f-ee2d8ba9d5dc")
+		(uuid "b55d20e2-cc55-4366-90aa-9d38b4770785")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -19,7 +19,7 @@
 		(at 0 -11.999999 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "97abaaa3-53ca-4020-8c69-1ee7df90faa0")
+		(uuid "f983c56d-32cc-4bb6-a08c-910cd824a079")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7d57f9a6-05cb-4b5e-95c9-50504829f287")
+		(uuid "64bd15c9-ef8b-4445-ae2e-392c1a843f6c")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,33 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "37aa6d57-ed24-4b38-bf36-51ac2612e28c")
+		(uuid "e054213b-1134-4bee-ba5f-14ffd9c1d6dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "0678L9300-02"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c4ceb56-1226-4bd7-9082-996abf150302")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey_PN" "5923-0678L9300-02CT-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e15512b4-0b4f-4db4-b661-f7cacb3633c1")
 		(effects
 			(font
 				(size 1 1)
@@ -62,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6fbf8d5c-8f53-4db4-ac7c-443a8121a34d")
+		(uuid "09f6f870-38ea-4563-9de2-bb9b4a84e441")
 	)
 	(fp_line
 		(start -2.25 2.5)
@@ -72,13 +98,13 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "85cd8392-b121-493b-bf6f-ee0fc9afe9a5")
+		(uuid "88d0f1dc-aab6-4b2a-b566-00f50a02eba5")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -10.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "61051478-600e-43af-81aa-f51ab02935bb")
+		(uuid "5cecf475-c110-4aba-89eb-677a36de63cf")
 		(effects
 			(font
 				(size 1 1)
@@ -91,14 +117,25 @@
 		(size 5 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "c4001e45-2f39-4ba3-847f-36dae6dc84b8")
+		(uuid "822ea4e7-e6a7-480f-b705-40fe908c0c80")
 	)
 	(pad "2" smd rect
 		(at 5.255935 0)
 		(size 5 4)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(thermal_bridge_angle 45)
-		(uuid "0ca41451-699d-4e71-b9bb-3b5cf13c5d66")
+		(uuid "c0dcdab2-b3f0-440a-85ba-2d86fd390dd1")
 	)
 	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 3.7 3 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

@@ -6,9 +6,9 @@
 	(descr "SOT-23W http://www.allegromicro.com/~/media/Files/Datasheets/A112x-Datasheet.ashx?la=en&hash=7BC461E058CC246E0BAB62433B2F1ECA104CA9D3")
 	(tags "SOT-23W for handsoldering")
 	(property "Reference" "REF**"
-		(at 0 -4.2 0)
+		(at -2.235 -2.876 90)
 		(layer "F.SilkS")
-		(uuid "4702fdaf-d6b0-4b06-ad12-eb81be767786")
+		(uuid "fc859279-1d24-4471-9b24-1103d861b598")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -19,7 +19,7 @@
 	(property "Value" "AP2127N-3.3TRG1"
 		(at 0 2.5 0)
 		(layer "F.Fab")
-		(uuid "f6a03241-9b36-4c49-bcb2-416976c489d8")
+		(uuid "413c9f98-eb28-4408-b648-0c6efa05b77d")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "218cfe43-a91e-45c1-955a-c76933f41189")
+		(uuid "25b3bf81-0592-4599-9787-457fb1e2f279")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,10 +45,36 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4c908386-c091-4a7f-92e6-c6019fc17c9e")
+		(uuid "9e3d92c9-894e-44ed-891c-e4f691bcf422")
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Part Number" "AP2127N-3.3TRG1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48efa4f5-30ee-480f-8271-7d7dddb377b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey_PN" "AP2127N-3.3TRG1DICT-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3b7c718-1b7a-4b6c-a6cb-d8972ee3c0b0")
+		(effects
+			(font
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -62,7 +88,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "70df47d5-f30d-4099-97f4-ec21ed588952")
+		(uuid "1ac399b4-0741-4a55-a0bc-232384799e98")
 	)
 	(fp_line
 		(start -0.525 -1.61)
@@ -72,7 +98,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "904c4eab-ac08-493a-a57d-f0cf0c1da06a")
+		(uuid "7ca917e4-205f-4aa9-a88c-ce0c6bebabf4")
 	)
 	(fp_line
 		(start 1.075 -1.6)
@@ -82,7 +108,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "0d215dc9-8d64-41d5-bb03-75ffa75acd20")
+		(uuid "04ce03d8-5d3a-438e-8138-f0e2cb7a7a6a")
 	)
 	(fp_line
 		(start 1.075 0.7)
@@ -92,11 +118,11 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "bd7e44e0-bb9a-49a7-af89-bbf871e595c5")
+		(uuid "26b31115-d3f0-40b6-b185-bbe52f39d39f")
 	)
 	(fp_poly
 		(pts
-			(xy -3.05 -0.95) (xy -3.38 -0.71) (xy -3.38 -1.19) (xy -3.05 -0.95)
+			(xy -1.025 -1.56) (xy -1.265 -1.89) (xy -0.785 -1.89) (xy -1.025 -1.56)
 		)
 		(stroke
 			(width 0.12)
@@ -104,17 +130,17 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "12f86131-5127-4708-bbd0-4aff16dc1f62")
+		(uuid "4d318844-d27d-4466-b1e6-e52f45f9a181")
 	)
 	(fp_line
 		(start -2.95 -1.74)
-		(end 2.95 -1.74)
+		(end 1.25 -1.74)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "daf523d6-213b-4f2c-b949-7892d1fa463c")
+		(uuid "1f482a8a-de62-45c1-ae18-f488231283cb")
 	)
 	(fp_line
 		(start -2.95 1.74)
@@ -124,27 +150,67 @@
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "a25b830b-64a6-41a5-bfce-f8135096e1ca")
+		(uuid "00cb6da0-3368-4dfc-8719-ba3ca9fa9b83")
 	)
 	(fp_line
-		(start 2.95 -1.74)
-		(end 2.95 1.74)
+		(start 1.25 -0.5)
+		(end 1.25 -1.74)
 		(stroke
 			(width 0.05)
-			(type solid)
+			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "debbf395-a53d-4e09-9f0d-2b453303587d")
+		(uuid "334e85d6-b551-48d5-bb40-4acbd96e1147")
 	)
 	(fp_line
-		(start 2.95 1.74)
+		(start 1.25 0.5)
+		(end 2.75 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2db0b357-2364-40e4-a6b4-d7f817d1f19b")
+	)
+	(fp_line
+		(start 1.25 1.74)
 		(end -2.95 1.74)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f29f593a-ec68-4fa4-8e0c-ae667b761010")
+		(uuid "e8b3429d-2758-4541-a5c2-95707969b371")
+	)
+	(fp_line
+		(start 1.25 1.74)
+		(end 1.25 0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "14c6ed52-17bd-4160-80a3-bdcccdbef718")
+	)
+	(fp_line
+		(start 2.75 -0.5)
+		(end 1.25 -0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "546db374-ae91-4698-a32b-dc7fb29858ed")
+	)
+	(fp_line
+		(start 2.75 0.5)
+		(end 2.75 -0.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4d3db4e0-a353-478b-9807-9b10842e1c98")
 	)
 	(fp_line
 		(start -0.955 -0.49)
@@ -154,7 +220,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "3966729e-c04c-4dcc-9567-1217b1316f9f")
+		(uuid "c1b4d108-7e46-4104-a4aa-199b1e08426e")
 	)
 	(fp_line
 		(start -0.955 -0.49)
@@ -164,7 +230,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "4932e12f-109b-4beb-b043-ce53f565aa7f")
+		(uuid "c7d11766-602c-4f94-b843-7850ef4264cf")
 	)
 	(fp_line
 		(start -0.955 1.49)
@@ -174,7 +240,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d39cc7d7-0d89-4ace-af34-d939eac261cc")
+		(uuid "22c013b3-3d34-4937-96da-edbcd08571e3")
 	)
 	(fp_line
 		(start 0.045 -1.49)
@@ -184,7 +250,7 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "a085dfd6-a516-4b16-858d-b8e1f529f637")
+		(uuid "7cbb8778-649a-4971-b671-31ae66e8d7cd")
 	)
 	(fp_line
 		(start 0.955 -1.49)
@@ -194,12 +260,12 @@
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "35f5f629-8cbf-4d81-b06f-434475d4a0c6")
+		(uuid "2e802bb0-ec1c-40ad-8011-52768a1291f6")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 270)
+		(at 0 0 90)
 		(layer "F.Fab")
-		(uuid "5a7984a8-6d4d-4b04-87dc-e8eb9dc54afa")
+		(uuid "7013304b-b8fd-4a0a-b5c3-851f26054c36")
 		(effects
 			(font
 				(size 0.5 0.5)
@@ -212,21 +278,21 @@
 		(size 2 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "a47ed66e-2253-4c47-903e-b6ebde036e60")
+		(uuid "68e3a2c4-608b-4ac6-a755-05a80b45c892")
 	)
 	(pad "2" smd roundrect
 		(at -1.7 0.95)
 		(size 2 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "89bc5ca2-f113-47c1-86e6-b60e83ae3dbd")
+		(uuid "73d3df12-831f-4d55-b4fe-0cc5aad501b8")
 	)
 	(pad "3" smd roundrect
-		(at 1.700001 0)
+		(at 1.7 0)
 		(size 2 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "2e760cab-84fd-4ac3-8c12-4dfca66e9e7e")
+		(uuid "5136ebff-9f7c-4282-86e2-75b07e8a4267")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23W_Handsoldering.step"
